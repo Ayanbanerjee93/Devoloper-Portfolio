@@ -1,114 +1,165 @@
-                /* -----------------------------common css section */
-            
-            body {
-                font-family: 'Spline Sans', sans-serif;
-                margin: 0 auto;
-            }
-            
-            .orange-font {
-                color: orangered;
-                font-weight: bolder;
-            }
-            
-            .clear-div {
-                clear: both;
-            }
-            
-            hr {
-                width: 90%;
-                margin-top: -99px;
-                margin-bottom: 1px;
-            }
-            /* section {
-    display: flex;
-    margin-bottom: 100px;
-} */
-            
-            .flexible-container {
-                display: flex;
-                margin-bottom: 100px;
-            }
-            /* -----------------------------common css section ends */
-            /* -----------------------------first section starts here------------------- */
-            
-            .top-banner {
-                background-image: linear-gradient(rgb(182, 137, 137), rgb(190, 195, 221), rgb(194, 194, 231));
-                /* background-color: rgb(243, 246, 246); */
-            }
-            
-            .right-div {
-                width: 49%;
-                padding-left: 19%;
-            }
-            
-            .right-div p {
-                width: 95%;
-            }
-            
-            .left-div {
-                width: 50%;
-                padding-right: 3%;
-            }
-            
-            #main-dp {
-                height: 293px;
-                width: 299px;
-                border-radius: 50%;
-            }
-            
-            .hire-me-link {
-                text-decoration: none;
-                background-image: linear-gradient(orange, tomato);
-                padding: 5px 26px;
-                color: whitesmoke;
-                border: 1px solid tomato;
-                font-weight: 700;
-                border-radius: 5px;
-                font-family: 'Spline Sans', sans-serif;
-            }
-            
-            .hire-me-link:hover {
-                color: black;
-            }
-            /* -------------------------------------second section starts here */
-            
-            .right-div-two {
-                width: 49%;
-                padding-left: 19%;
-            }
-            
-            .left-div-two {
-                width: 70%;
-                padding-right: 3%;
-            }
-            
-            #second-dp {
-                height: 310px;
-                width: 299px;
-                border-radius: 50%;
-            }
-            
-            .dream-big {
-                padding: 15px;
-                background-image: linear-gradient(rgb(197, 197, 238), rgb(214, 195, 214), rgb(149, 102, 102));
-            }
-            
-            #dream-big-p {
-                display: inline-block;
-                width: 39 0px;
-            }
-            /* --------------------------------------Third section starts here */
-            
-            .right-div-exp {
-                width: 45%;
-                /* padding-right: 5%; */
-                padding: 21px 33px;
-                /* background-color: yellow;*/
-            }
-            
-            .left-div-exp {
-                width: 45%;
-                /* padding-right: 5%; */
-                padding: 21px 33px;
-                /* background-color: yellow;
-}
+ /* -----------------------------common css section */
+ 
+ body {
+     font-family: 'Spline Sans', sans-serif;
+     margin: 0 auto;
+ }
+ 
+ .orange-font {
+     color: orangered;
+     font-weight: bolder;
+ }
+ 
+ .clear-div {
+     clear: both;
+ }
+ 
+ hr {
+     width: 90%;
+     margin-top: -99px;
+     margin-bottom: 1px;
+ }
+ 
+ .flexible-container {
+     display: flex;
+     margin-bottom: 100px;
+ }
+ 
+ h1 {
+     font-size: 1.5em;
+ }
+ /* -----------------------------common css section ends */
+ /* -----------------------------first section starts here------------------- */
+ 
+ .top-banner {
+     background-image: linear-gradient(rgb(182, 137, 137), rgb(190, 195, 221), rgb(194, 194, 231));
+     /* background-color: rgb(243, 246, 246); */
+ }
+ 
+ .right-div {
+     width: 49%;
+     padding-left: 19%;
+ }
+ 
+ .right-div p {
+     width: 95%;
+ }
+ 
+ .left-div {
+     width: 50%;
+     padding-right: 3%;
+ }
+ 
+ #main-dp {
+     height: 293px;
+     width: 299px;
+     border-radius: 50%;
+ }
+ 
+ .hire-me-link {
+     text-decoration: none;
+     background-image: linear-gradient(orange, tomato);
+     padding: 5px 26px;
+     color: whitesmoke;
+     border: 1px solid tomato;
+     font-weight: 700;
+     border-radius: 5px;
+     font-family: 'Spline Sans', sans-serif;
+ }
+ 
+ .hire-me-link:hover {
+     color: black;
+ }
+ /* -------------------------------------second section starts here */
+ 
+ .right-div-two {
+     width: 49%;
+     padding-left: 19%;
+ }
+ 
+ .left-div-two {
+     width: 70%;
+     padding-right: 3%;
+ }
+ 
+ #second-dp {
+     height: 310px;
+     width: 299px;
+     border-radius: 50%;
+ }
+ 
+ .dream-big {
+     padding: 15px;
+     background-image: linear-gradient(rgb(197, 197, 238), rgb(214, 195, 214), rgb(149, 102, 102));
+ }
+ 
+ #dream-big-p {
+     display: inline-block;
+     width: 39 0px;
+ }
+ /* --------------------------------------Third section starts here */
+ 
+ .experience {
+     /* background-image: linear-gradient(rgb(233, 194, 194), rgb(228, 187, 228)); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .right-div-exp {
+     /* background-color: yellow;*/
+     /* padding-right: 5%; */
+     width: 40%;
+     margin: 10px;
+     padding: 21px 33px;
+     box-shadow: 10px 10px 8px #888888;
+     border-image: linear-gradient(tomato);
+ }
+ 
+ .right-div-exp:hover {
+     box-shadow: 10px 10px 8px #645e5e;
+ }
+ 
+ .left-div-exp {
+     /* background-color: yellow;*/
+     /* padding-right: 5%; */
+     width: 40%;
+     margin: 10px;
+     padding: 21px 33px;
+     box-shadow: 10px 10px 8px #888888;
+ }
+ 
+ .left-div-exp:hover {
+     box-shadow: 10px 10px 8px #645e5e;
+ }
+ 
+ #exp-border-one {
+     border-left: 7px solid;
+     border-image: linear-gradient(black, blue, white, blue, black);
+     border-image-slice: 1;
+ }
+ 
+ #exp-border-one:hover {
+     border-left: 7px solid;
+     border-image: linear-gradient(black, white, tomato, orangered, black);
+     border-image-slice: 1;
+ }
+ 
+ #exp-border-two {
+     border-left: 7px solid;
+     border-image: linear-gradient(black, white, tomato, orangered, black);
+     border-image-slice: 1;
+ }
+ 
+ #exp-border-two:hover {
+     border-left: 7px solid;
+     border-image: linear-gradient(black, blue, white, blue, black);
+     border-image-slice: 1;
+ }
+ /* -------------------------------footer starts here */
+ 
+ .footer {
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
