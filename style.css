@@ -10,16 +10,32 @@ body {
     font-weight: bolder;
 }
 
+.clear-div {
+    clear: both;
+}
+
+hr {
+    width: 90%;
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
 
 /* -----------------------------common css section ends */
 
 
-/* -----------------------------main section starts here------------------- */
+/* -----------------------------first section starts here------------------- */
 
 .top-banner {
-    display: flex;
+    /* display: flex; 
     background-image: url("images/body-bg.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: rgb(243, 246, 246);
 }
 
 .right-div {
@@ -55,4 +71,14 @@ body {
 
 .hire-me-link:hover {
     color: black;
+}
+
+#second-dp {
+    height: 310px;
+    width: 299px;
+    border-radius: 50%;
+}
+
+.dream-big {
+    background-image: url('images/home-banner.png')
 }
