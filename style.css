@@ -1,84 +1,114 @@
-/* -----------------------------common css section */
-
-body {
-    font-family: 'Spline Sans', sans-serif;
-    margin: 0 auto;
-}
-
-.orange-font {
-    color: orangered;
-    font-weight: bolder;
-}
-
-.clear-div {
-    clear: both;
-}
-
-hr {
-    width: 90%;
-    margin-top: -90px;
-    margin-bottom: 10px;
-}
-
-section {
+                /* -----------------------------common css section */
+            
+            body {
+                font-family: 'Spline Sans', sans-serif;
+                margin: 0 auto;
+            }
+            
+            .orange-font {
+                color: orangered;
+                font-weight: bolder;
+            }
+            
+            .clear-div {
+                clear: both;
+            }
+            
+            hr {
+                width: 90%;
+                margin-top: -99px;
+                margin-bottom: 1px;
+            }
+            /* section {
     display: flex;
     margin-bottom: 100px;
-}
-
-
-/* -----------------------------common css section ends */
-
-
-/* -----------------------------first section starts here------------------- */
-
-.top-banner {
-    /* display: flex; 
-    background-image: url("images/body-bg.png");
-    background-repeat: no-repeat;*/
-    background-color: rgb(243, 246, 246);
-}
-
-.right-div {
-    width: 49%;
-    padding-left: 19%;
-}
-
-.right-div p {
-    width: 95%;
-}
-
-.left-div {
-    width: 50%;
-    padding-right: 3%;
-}
-
-#main-dp {
-    height: 293px;
-    width: 299px;
-    border-radius: 50%;
-}
-
-.hire-me-link {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 5px 26px;
-    color: whitesmoke;
-    border: 1px solid tomato;
-    font-weight: 700;
-    border-radius: 5px;
-    font-family: 'Spline Sans', sans-serif;
-}
-
-.hire-me-link:hover {
-    color: black;
-}
-
-#second-dp {
-    height: 310px;
-    width: 299px;
-    border-radius: 50%;
-}
-
-.dream-big {
-    background-image: url('images/home-banner.png')
+} */
+            
+            .flexible-container {
+                display: flex;
+                margin-bottom: 100px;
+            }
+            /* -----------------------------common css section ends */
+            /* -----------------------------first section starts here------------------- */
+            
+            .top-banner {
+                background-image: linear-gradient(rgb(182, 137, 137), rgb(190, 195, 221), rgb(194, 194, 231));
+                /* background-color: rgb(243, 246, 246); */
+            }
+            
+            .right-div {
+                width: 49%;
+                padding-left: 19%;
+            }
+            
+            .right-div p {
+                width: 95%;
+            }
+            
+            .left-div {
+                width: 50%;
+                padding-right: 3%;
+            }
+            
+            #main-dp {
+                height: 293px;
+                width: 299px;
+                border-radius: 50%;
+            }
+            
+            .hire-me-link {
+                text-decoration: none;
+                background-image: linear-gradient(orange, tomato);
+                padding: 5px 26px;
+                color: whitesmoke;
+                border: 1px solid tomato;
+                font-weight: 700;
+                border-radius: 5px;
+                font-family: 'Spline Sans', sans-serif;
+            }
+            
+            .hire-me-link:hover {
+                color: black;
+            }
+            /* -------------------------------------second section starts here */
+            
+            .right-div-two {
+                width: 49%;
+                padding-left: 19%;
+            }
+            
+            .left-div-two {
+                width: 70%;
+                padding-right: 3%;
+            }
+            
+            #second-dp {
+                height: 310px;
+                width: 299px;
+                border-radius: 50%;
+            }
+            
+            .dream-big {
+                padding: 15px;
+                background-image: linear-gradient(rgb(197, 197, 238), rgb(214, 195, 214), rgb(149, 102, 102));
+            }
+            
+            #dream-big-p {
+                display: inline-block;
+                width: 39 0px;
+            }
+            /* --------------------------------------Third section starts here */
+            
+            .right-div-exp {
+                width: 45%;
+                /* padding-right: 5%; */
+                padding: 21px 33px;
+                /* background-color: yellow;*/
+            }
+            
+            .left-div-exp {
+                width: 45%;
+                /* padding-right: 5%; */
+                padding: 21px 33px;
+                /* background-color: yellow;
 }
