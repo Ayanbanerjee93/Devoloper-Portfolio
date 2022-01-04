@@ -1,0 +1,58 @@
+/* -----------------------------common css section */
+
+body {
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.orange-font {
+    color: orangered;
+    font-weight: bolder;
+}
+
+
+/* -----------------------------common css section ends */
+
+
+/* -----------------------------main section starts here------------------- */
+
+.top-banner {
+    display: flex;
+    background-image: url("images/body-bg.png");
+    background-repeat: no-repeat;
+}
+
+.right-div {
+    width: 49%;
+    padding-left: 19%;
+}
+
+.right-div p {
+    width: 95%;
+}
+
+.left-div {
+    width: 50%;
+    padding-right: 3%;
+}
+
+#main-dp {
+    height: 293px;
+    width: 299px;
+    border-radius: 50%;
+}
+
+.hire-me-link {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 5px 26px;
+    color: whitesmoke;
+    border: 1px solid tomato;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.hire-me-link:hover {
+    color: black;
+}
