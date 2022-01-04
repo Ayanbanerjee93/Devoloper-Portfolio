@@ -17,22 +17,92 @@
  hr {
      width: 90%;
      margin-top: -99px;
-     margin-bottom: 1px;
+     margin-bottom: -4px;
  }
  
  .flexible-container {
      display: flex;
      margin-bottom: 100px;
+     justify-content: center;
  }
  
  h1 {
      font-size: 1.5em;
  }
  /* -----------------------------common css section ends */
+ /* ----------------------------------Navbar starts here--------- */
+ 
+ .navbar {
+     display: flex;
+     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+ }
+ 
+ .nav-logo {
+     height: 44px;
+     width: 44px;
+     border-radius: 68%;
+     padding-left: 10px;
+     padding-right: 10px;
+     /* background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c); */
+     /* padding-bottom: 10px; */
+     padding-top: 10px;
+ }
+ 
+ .nav-right {
+     display: flex;
+     /* background-color: red; */
+     width: 80%;
+ }
+ 
+ .nav-right ul {
+     display: flex;
+ }
+ 
+ .nav-right ul li {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     font-size: 900;
+     font-weight: bolder;
+     font-family: Verdana;
+     /* padding: 30px; */
+     /* padding-top: 8px;
+     padding-right: 50px;
+     padding-left: 50px; */
+ }
+ 
+ .nav-right ul li a {
+     color: black;
+     text-decoration: none;
+     padding-top: 8px;
+     padding-right: 50px;
+     padding-left: 50px;
+ }
+ 
+ .nav-right li a:hover {
+     color: white;
+     box-shadow: 10px 10px 8px #777373;
+ }
+ 
+ .nav-left {
+     display: flex;
+     /* background-color: green; */
+     width: 20%;
+     padding: 25px;
+ }
+ 
+ .btn {
+     background-image: linear-gradient(tomato, orange);
+ }
+ 
+ .btn:hover {
+     background-image: linear-gradient(orange, tomato);
+     box-shadow: 1px 3px 5px #0a0a0a;
+ }
  /* -----------------------------first section starts here------------------- */
  
  .top-banner {
-     background-image: linear-gradient(rgb(182, 137, 137), rgb(190, 195, 221), rgb(194, 194, 231));
+     background-image: linear-gradient(rgb(182, 137, 137), rgb(190, 195, 221), rgb(182, 182, 231));
      /* background-color: rgb(243, 246, 246); */
  }
  
@@ -54,6 +124,12 @@
      height: 293px;
      width: 299px;
      border-radius: 50%;
+     box-shadow: 10px 10px 8px #645e5e;
+ }
+ 
+ #main-dp:hover {
+     cursor: hand;
+     box-shadow: 10px 10px 8px #a39e9e;
  }
  
  .hire-me-link {
@@ -86,24 +162,39 @@
      height: 310px;
      width: 299px;
      border-radius: 50%;
+     box-shadow: 10px 10px 8px #645e5e;
+ }
+ 
+ #second-dp:hover {
+     box-shadow: 10px 10px 8px #777373;
  }
  
  .dream-big {
      padding: 15px;
-     background-image: linear-gradient(rgb(197, 197, 238), rgb(214, 195, 214), rgb(149, 102, 102));
+     background-image: linear-gradient(rgb(182, 182, 231), rgb(214, 195, 214), rgb(151, 114, 114));
  }
  
  #dream-big-p {
      display: inline-block;
      width: 39 0px;
  }
- /* --------------------------------------Third section starts here */
+ /* --------------------------------------Experience section starts here */
  
- .experience {
-     /* background-image: linear-gradient(rgb(233, 194, 194), rgb(228, 187, 228)); */
+ .experiences {
+     background-image: linear-gradient(rgb(151, 114, 114), rgb(214, 195, 214), rgb(197, 197, 238));
+     /* background-image: linear-gradient(to right, rgb(243, 239, 239), rgb(149, 102, 102)); */
+     padding-top: 1px;
+ }
+ 
+ #exp-heading {
      display: flex;
-     align-items: center;
      justify-content: center;
+     padding-right: 942px;
+     color: black;
+ }
+ 
+ #exp-heading:hover {
+     color: whitesmoke;
  }
  
  .right-div-exp {
